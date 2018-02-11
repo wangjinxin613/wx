@@ -1,0 +1,151 @@
+
+body{
+	margin:0;
+	padding:0;
+
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size-adjust: .98;
+    width:100%;
+    overflow-x: hidden;
+    font-size:1rem;
+
+}
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 1rem;
+    -webkit-touch-callout: none;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+body,div,p,blockquote,hr,ul,ol,li,h1,h2,h3,h4,h5,h6,menu,dd,dl,form,fieldset,input,textarea,caption,select,button,input,pre,hr,td,th,address,section,article,aside,header,footer,nav,dialog,figure,label,span,strong,i,s {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+button,input{
+    outline: none;
+}
+.back{
+    background: url("../img/background.jpg");
+    background-size: 100% 100vh;
+    margin: 0;
+}
+.language{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    color:#fff;
+}
+.index-foot{
+
+
+}
+.index-foot .btn1{
+    left:40px;
+    bottom: 30px;
+    width: 30%;
+    padding:10px 0;
+    text-align: center;
+    position: absolute;
+    background: rgb(69,192,26);
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+}
+.index-foot .btn2{
+    right:40px;
+    bottom: 30px;
+    width: 30%;
+    padding:10px 0;
+    text-align: center;
+    position: absolute;
+    background: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+.head{
+    background: rgb(57,58,63);
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+   
+}
+.head span{
+    font-size:1.1rem;
+    padding-left: 10px;
+}
+.head img{
+    width: 26.5px;
+    vertical-align:top;
+    margin-top: 11.5px;
+    padding-left:10px;
+    padding-right: 10px;
+    border-right: 1px solid #333;
+}
+.input-list .single{
+    height: 45px;
+    line-height: 45px;
+    width:90vw;
+    margin-left: 5vw;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+}
+.input-list{
+    margin-top: 20px;
+}
+.input-list .single label{
+    margin:0 5px;
+}
+.input-list .single input{
+    width: calc(100% - 150px);
+    left: calc(5% + 80px);
+    position: absolute;
+   height: 44px;
+   line-height: 44px;
+   border: 0;
+}
+.input-list .single span{
+    float: right;
+    color: rgb(69,192,26);
+    line-height:49px;
+}
+.zc-btn{
+    background: rgb(69,192,26);
+    color: #fff;
+    border: 0;
+    height: 45px;
+    line-height: 45px;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top:25px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.zc-foot{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.zc-foot a{
+    font-size: 12px;    
+    color: rgb(59,82,131);
+}
+.paizhao{
+    width:65px;
+    height: 65px;
+    background: rgb(221,221,221);
+    vertical-align: middle;
+    text-align: center;
+    line-height: 75px;
+    float: left;
+    margin-left:10px;
+    margin-top: -10px;
+}
+.paizhao img{
+    width: 20px;
+
+}
+.clear{
+    clear:both;
+}
